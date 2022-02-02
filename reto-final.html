@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasa de ahorro</title>
+</head>
+<body>
+    <header>
+        <h1>Calcula tu tasa de ahorro</h1>
+    </header>
+    <section>
+        <h2>Introduce tus datos</h2>
+        <form>
+            <label for="inputIngresos">
+                Ingrese sus ingresos mensuales:
+            </label>
+            <input id="inputIngresos" type="number">
+            <label for="inputGastos">
+                Ingrese sus gastos mensuales:
+            </label>
+            <input id="inputGastos" type="number">
+            <button type="button" onclick="calcularTasaDeAhorro()">
+                Calcular tasa de ahorro
+            </button>
+            <p id="ResultT"></p>
+        </form>
+    </section>
+    <script src="./reto-final.js"></script>
+</body>
+</html>
